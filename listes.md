@@ -218,10 +218,6 @@ def posmax(l):
    
 print("Max est ", posmax(l))
 
-
-
-
-
 ```
 <div id="pad_4.1" class="pad"></div>
 <script>
