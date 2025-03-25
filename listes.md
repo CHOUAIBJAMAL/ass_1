@@ -534,7 +534,15 @@ for p, n, a in zip(prenoms, noms, ages):
 
 Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de même taille.
 
-
+```
+# Ex1
+def verifier(l):
+  for i in range(len(l)-1):
+    if l[i]>l[i+1]:
+      return False
+  return True
+verifier([0, 5, 8, 8, 9])
+```
 
 ## Liste des exercices de ce chapitre
 
